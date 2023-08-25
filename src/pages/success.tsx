@@ -71,13 +71,9 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   });
   const allProducts = await stripe.products.list();
 
-  console.log("all prods", allProducts.data, session.line_items.data[0]);
-
   const costumerName = session.customer_details.name;
   const products = session.line_items.data.map((item) => {
     const prod = allProducts.data.find((prod) => prod.id === (item.price.product as any).id)
-    console.log("PROD", prod);
-
     return {
       name: prod.name,
       imageUrl: prod.images[0]
