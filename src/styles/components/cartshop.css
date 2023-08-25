@@ -39,7 +39,11 @@
   justify-content: flex-start;
   }
   
-  
+  .CartItems {
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
   .BoxInfor{
   display: flex;
   flex-direction: column;
@@ -87,7 +91,6 @@
     flex-direction: column;
     align-content: flex-end;
     margin-right: 4rem;
-    margin-top: 10rem;
     
   }
   

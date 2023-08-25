@@ -60,6 +60,7 @@ export default function CartShop() {
           </button>
           <h2 >Sacola de compras</h2>
         </div>
+        <div className='CartItems'>
         {cartItems.map(product => (
           <div className="BoxContainer" key={product.id}>
             <img className="Image" src={product.imageUrl} />
@@ -71,6 +72,8 @@ export default function CartShop() {
           </div>
         ))
         }
+
+        </div>
 
         <div className="BoxTotal">
           <div className="Quantity">
