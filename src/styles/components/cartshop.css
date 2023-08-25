@@ -43,6 +43,11 @@
     height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
+
+  }
+
+  .CartItems ::-webkit-scrollbar{
+    display: none;
   }
   .BoxInfor{
   display: flex;
