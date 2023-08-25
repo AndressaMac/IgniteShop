@@ -1,0 +1,151 @@
+.Modal {
+  position: absolute;
+  width: 30rem;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: -4px 0px 30px rgba(0, 0, 0, 0.8);
+  background-color:#202024;
+  
+  }
+  .HeadModal{
+    display: flex;
+    flex-direction: column;
+  }
+  .Xbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: none;
+    background: none;
+    margin: 28px;
+  }
+  
+  h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  color: #E1E1E6;
+  margin-left: 4rem;
+  }
+  .BoxContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  justify-content: flex-end;
+  }
+  
+  
+  .BoxInfor{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  
+  .Image{
+  width: 101.94px;
+  height: 93px;
+  
+  background: linear-gradient(180deg, #1EA483 0%, #7465D4 100%);
+  border-radius: 8px;
+  }
+  
+  .strong{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #C4C4CC;
+  font-size: 18px
+  }
+  
+  .span{
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #E1E1E6;
+    font-size: 18px;
+    margin-left: 4rem;
+  }
+  
+  .remove{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #00875F;
+  cursor: pointer;
+  
+  }
+  
+  .BoxTotal{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-right: 4rem;
+    margin-top: 10rem;
+    
+  }
+  
+  .Quantity{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #E1E1E6;
+  margin-left: 4rem;
+  }
+  
+  
+  .Total{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #E1E1E6;
+    margin-left: 4rem;
+    margin-top: 0.438rem;
+  }
+  
+  .ButtonBuy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 32px;
+  gap: 10px;
+  background: #00875F;
+  border-radius: 8px;
+  width: 384px;
+  height: 69px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-left: 4rem;
+  margin-top: 3.563rem;
+  transition: 1s;
+  
+  }
+
+.ButtonBuy:hover{
+cursor: pointer;
+background-color:#00B37E;
+  }
+
+button:hover{
+  cursor: pointer;
+}
